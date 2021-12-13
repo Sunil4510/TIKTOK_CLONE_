@@ -1,0 +1,46 @@
+.sidebar{
+    position:absolute;
+    top:40%;
+    right: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sidebar__heart,.sidebar__message,.sidebar__share{
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 39px;
+}
+
+/* .sidebar__message{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.sidebar__share{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+} */
+.sidebar__heart__icon,.sidebar__message__icon,.sidebar__share__icon{
+    font-size: 45px !important;
+    margin-bottom:5px;
+}
+
+.sidebar__tally{
+    font-size: 20px;
+    font-weight: 600;
+    color:white;
+}
+.sidebar__heart__icon{
+    color:rgba(252, 2, 44, 0.815) !important;
+}
+.sidebar__message__icon{
+color:rgb(252, 252, 252)!important;
+}
+.sidebar__share__icon{
+    color:rgba(2, 183, 255, 0.911) !important;
+}

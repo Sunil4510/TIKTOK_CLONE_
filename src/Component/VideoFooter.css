@@ -1,0 +1,64 @@
+.videofooter{
+    position: relative;
+    color:black;
+    bottom:180px;
+    display:flex;
+    /* align-items: center; */    
+}
+.videofooter__text{
+    flex:1;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+/* .videofooter__text__top{
+    padding-bottom: 40px;
+    padding-left: 10px;
+} */
+.videofooter__text__username{
+    margin: 0px 20px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+.videofooter__text__caption{
+    margin: 10px 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+
+.videofooter__logo{
+    height:50px;
+    filter: invert(1);
+    animation:spinRecord infinite 1s linear;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.videofooter__slider{
+   /* background:none !important;
+   background-color:none !important;
+   border:none !important; */
+   font-weight:bold;
+}
+
+.videofooter__foot__slider{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+.videofooter__music__icon{
+    color: rgb(10, 141, 248) !important;
+}
+
+@keyframes spinRecord{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
