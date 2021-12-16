@@ -3,17 +3,14 @@
     color:black;
     bottom:180px;
     display:flex;
-    /* align-items: center; */    
 }
+
 .videofooter__text{
     flex:1;
     margin-left: 20px;
     margin-right: 80px;
 }
-/* .videofooter__text__top{
-    padding-bottom: 40px;
-    padding-left: 10px;
-} */
+
 .videofooter__text__username{
     margin: 0px 20px;
     color:rgb(255, 255, 255);
@@ -34,10 +31,8 @@
     bottom: 0;
     right: 0;
 }
+
 .videofooter__slider{
-   /* background:none !important;
-   background-color:none !important;
-   border:none !important; */
    font-weight:bold;
 }
 
@@ -50,6 +45,7 @@
     font-weight: bold;
     color: white;
 }
+
 .videofooter__music__icon{
     color: rgb(10, 141, 248) !important;
 }
