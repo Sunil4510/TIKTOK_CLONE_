@@ -6,6 +6,7 @@ import Sidebar from './Sidebar'
 const Video = ({src,username,caption,song,shares,likes,messages}) => {
     const [playing,setPlaying] = useState(false);
     const videoRef = useRef(null);
+    
     const onVideoPress = ()=>{
         if(playing){
             videoRef.current.pause();
@@ -15,6 +16,7 @@ const Video = ({src,username,caption,song,shares,likes,messages}) => {
             setPlaying(true);
         }
     }
+    
     return (
         <div className="video">
             <video className="video__player"
@@ -23,7 +25,7 @@ const Video = ({src,username,caption,song,shares,likes,messages}) => {
             ref={videoRef}
             src={src}
             >
-                </video>
+            </video>
             <Footer
                 username={username}
                 caption={caption}
